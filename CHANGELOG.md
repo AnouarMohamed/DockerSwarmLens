@@ -23,6 +23,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   - `scripts/deploy.sh`
   - `scripts/rollback.sh`
 - v1.5 closeout checklist and backend confidence tests for OIDC role mapping, cluster routing, and action guardrails.
+- Self-contained Playwright control-plane workflows covering auth/session state, cluster switching, approvals, assistant proposals, and incidents.
 
 ### Changed
 

@@ -24,6 +24,6 @@ This checklist tracks what is already in place for the v1.5 control-plane milest
 ## Remaining before calling v1.5 fully complete
 
 - [ ] Run a real Postgres-backed, multi-cluster smoke test that survives backend restarts and verifies durable state end to end.
-- [ ] Expand Playwright coverage to include login/logout, cluster switching, approvals, assistant cited responses, and incident/operator workflows.
+- [x] Expand Playwright coverage to include login/logout, cluster switching, approvals, assistant cited responses, and incident/operator workflows.
 - [ ] Rehearse a production-like OIDC deployment with migration, health-gated rollout, and rollback verification.
 - [ ] Decide whether the remaining lazy chart chunk is acceptable or worth one more slimming pass before release.
