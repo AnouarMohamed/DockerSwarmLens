@@ -1,4 +1,4 @@
-﻿# SwarmLens
+# SwarmLens
 
 SwarmLens is an operations console for Docker Swarm clusters.
 
@@ -15,6 +15,14 @@ It combines deterministic diagnostics, operational telemetry, incident workflows
 - Assistant SSE stream (`/api/v1/clusters/{clusterID}/assistant/chat`) with persistent sessions, citations, and action proposals.
 - Cluster-scoped APIs under `/api/v1/clusters/{clusterID}/...` with legacy default-cluster aliases.
 - Grafana panel embedding when frontend `VITE_GRAFANA_*` vars are configured.
+
+## Screenshots
+
+| Overview (Healthy) | Diagnostics Engine |
+| :---: | :---: |
+| ![Overview Healthy](docs/screenshots/overview-healthy.png) | ![Diagnostics](docs/screenshots/diagnostics.png) |
+
+[**See the full gallery in the docs →**](docs/GALLERY.md)
 
 ## Runtime modes
 
