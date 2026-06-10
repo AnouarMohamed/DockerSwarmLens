@@ -17,9 +17,13 @@ export default defineConfig({
     sourcemap: true,
     rollupOptions: {
       output: {
-        manualChunks: {
-          react: ['react', 'react-dom', 'react-router-dom'],
-          state: ['zustand'],
+        manualChunks(id) {
+          if (id.includes('react') || id.includes('react-dom') || id.includes('react-router-dom')) {
+            return 'react'
+          }
+          if (id.includes('zustand')) {
+            return 'state'
+          }
         },
       },
     },
